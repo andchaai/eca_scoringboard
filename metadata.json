@@ -1,0 +1,6 @@
+{
+  "name": "裁判席記事簿 - 賽事即時計分榜",
+  "description": "專業賽事計分與即時結果榜單系統，支援多評判獨立手機/平板QR Code掃碼連線、Firebase即時雲端同步、班制/社制/個人參賽者、自訂加權評分準則與精美大螢幕頒獎榜單。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

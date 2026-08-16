@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "competitions": {
+      "$competitionId": {
+        ".read": true,
+        ".write": true,
+        "scores": {
+          "$scoreKey": {
+            ".read": true,
+            ".write": true
+          }
+        }
+      }
+    }
+  }
+}

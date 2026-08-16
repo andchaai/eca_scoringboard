@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Competitions document and its subcollections / scores can be read and updated by judges and hosts in room
+    match /competitions/{competitionId} {
+      allow read, write: if true;
+
+      match /scores/{scoreKey} {
+        allow read, write: if true;
+      }
+    }
+  }
+}
